@@ -1,0 +1,132 @@
+[
+  {
+    "name": "app",
+    "type": "package",
+    "children": [
+      {
+        "name": "signin",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "page",
+            "children": [
+              {
+                "type": "function",
+                "name": "SigninPage",
+                "static": true,
+                "location": "src\\app\\signin\\page.tsx:7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "layout",
+        "children": [
+          {
+            "type": "function",
+            "name": "RootLayout",
+            "static": true,
+            "location": "src\\app\\layout.tsx:8"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "providers",
+        "children": [
+          {
+            "type": "function",
+            "name": "Providers",
+            "static": true,
+            "location": "src\\app\\providers.tsx:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "components",
+    "type": "package",
+    "children": [
+      {
+        "name": "Footer",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Footer",
+                "static": true,
+                "location": "src\\components\\Footer\\index.tsx:4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Header",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Header",
+                "static": true,
+                "location": "src\\components\\Header\\index.tsx:7"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "ThemeToggler",
+            "children": [
+              {
+                "type": "function",
+                "name": "ThemeToggler",
+                "static": true,
+                "location": "src\\components\\Header\\ThemeToggler.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ScrollToTop",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "ScrollToTop",
+                "static": true,
+                "location": "src\\components\\ScrollToTop\\index.tsx:3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /signin"
+      }
+    ]
+  }
+]

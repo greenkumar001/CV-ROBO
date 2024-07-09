@@ -1,0 +1,6 @@
+[
+  {
+    "caller": "GET /signup",
+    "callee": "signup/page"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/signin",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3000",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+          "Next-Router-State-Tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22signin%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+          "Next-Router-Prefetch": "1",
+          "Sec-Ch-Ua-Mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+          "Next-Url": "/signin",
+          "Rsc": "1",
+          "Sec-Ch-Ua-Platform": "\"Android\"",
+          "Accept": "*/*",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/signin",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 1,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "_rsc",
+          "value": "'1gql1'",
+          "class": "String"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url, Accept-Encoding",
+          "Cache-Control": "no-store, must-revalidate",
+          "X-Powered-By": "Next.js",
+          "Content-Type": "text/x-component",
+          "Content-Encoding": "gzip"
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\n3��VJI-K��/�M�+Q҉�VJ���I)J�S�Q*�L��\u00041����\u0003\u001c�]��j��յ�:y�99`\"66�\u000b\u0000�F��Z\u0000\u0000\u0000... (3 more characters)"
+        }
+      },
+      "id": 2,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.026190699980361387
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.5.1"
+    },
+    "app": "startup-nextjs-template",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "GET /signin (200) — 2024-07-01T06:03:52.185Z"
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /signin"
+        }
+      ]
+    }
+  ]
+}

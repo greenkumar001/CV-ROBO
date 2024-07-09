@@ -1,0 +1,91 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/signin",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3000",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+          "Next-Router-State-Tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22signin%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%5D%7D%5D%7D%2Cnull%2C%22refetch%22%5D",
+          "Sec-Ch-Ua-Mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+          "Next-Url": "/signin",
+          "Rsc": "1",
+          "Sec-Ch-Ua-Platform": "\"Android\"",
+          "Accept": "*/*",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/signin",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 1,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "_rsc",
+          "value": "'mkk04'",
+          "class": "String"
+        }
+      ]
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url, Accept-Encoding",
+          "Cache-Control": "no-store, must-revalidate",
+          "X-Powered-By": "Next.js",
+          "Content-Type": "text/x-component",
+          "Content-Encoding": "gzip"
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\n�P�\n\u00021\f��\u0019=)�\r���\u0007~���nX�ݴ$]\u001fo\u0017�\u0007�I/I�df�L\u0016˕\u0019bJ6aCj�\u0012OJ2�\n8ִic�\u0005R`:g��fp�\u0013�\u0016�\u0014�L\n�1{g\u001bb�2E�J(n�P�-��C�M\u0012��&��j�+����I\u0018C��M\u000bܮ����\u001e\u001b�\u001eL����z.�o�3��*��n�\n�|�=�fH*�OBJ�_\u000e�_\u001e�\u0002\u0000\u0000��l�A\u000e�@\fE�\u001c�+M\u0018�ӄ\u001bx\u0006�b\u001c��CgҖ�1�]HP7l_��/1�)\n�ĝ%�Ψ��\u001b���h��P6�sv�_H]7aa\u001f'\fj޺��:�]qř�m\t�\u0016�����\u001c%=�d�\u0015��y��?�`��\u0014\u0017�\u0016�ʿ�}�z\u0017\u001f\u0000\u0000\u0000���V�o�6\u0010~�_!�~h\u00019�\u001c�I]\u0014[�5M0w\r�\u0016{p\r��N\u0012\u001b�\u0014Hڈ\u0017�ߝd�Jb�ذ���\u000fݑw�}��`2g1l@�\"\u0007�?��\u0019�\u001fX�\t\u0019\u001bP\f\u0017X�*��Z��ۋ\u000f�K��\u000b|���V1$BA�\u001e_8����_\u0002��4d�C1�C櫵���0��W�\\�Њ�O��\r�-�C4\u0016����ւ��Z�;ŀ��\u001cw\"�\u0000\n\f��\b ��B���,\u0016e�z�O�1�\u0004�Y�\u001d�?`���\u0002(qJ\\�r�Q9]Ϯ޽m�3�y,TJ�����3��`�9##\n�̛q;m�V��\f�����x8A�:\u001c�A^H��\u00197� m��p��{8���J���pP��\u0012���Y\u0005�����\\Wf�SWv�X\u0007�up'��\u0003\u001d`�`4�d�z\u0005O���Z�\u001en�V�%\u0014ℕ�]\u0013c�iCTݦӞh�x.$��n-\"믅��� ��}�����z����An\u0000\u000f:�/��ҷ\\پ\u0005#\u0012\\~Q\u0014\u0012�K-�������}� ���\u0002\"�hx�A��*.�݅�SMZAu���Z$�0%\u0012��@?�\u000b\u0003Q=`X��:'Mq�z��mw���u\"�^bu���yJ��~��t|���q�\\�`����\f܍w���x\\.3�KL����!\"\u001e&/� x���]j�\u0015�\u0017I��͹I��\u0004�������Y���&\u0006�7��$,�=���=����������\u001cb�����\u0004��W��6� �I��ݫ�.\u0000J�\u0005���M��x�7\u001f�^��US\u0016�Y���?y��b���\u0004\"A��\n%Q�����\u001d��\tA{�\r\u0003�\u001fx\u0001Z\u000b\u001e��\u0001�O[3�u&�ƈ�Q}��NO� ��\u0006\f\tT6zr��9��\u001bٍ�\u0014��e@��\u0007��\b�\u0003jʆ��X\r:|\u0002zD���ۓ\u0012<F���N����\u000f������;=띱�f]=��j֨=\u0001=Z\u0018 i��3\u0000G��\u0002�6XR�\u0007�z\u0004\u0018D�\u000exQ\f�+�\u0003��寛w�Y��<<\u001d�΂�9�\u0016O1Ġ�F/ˣ��6o���P��F:c�*�7=g\u000b|��\u000f\u0000\u0000\u0000��U�1\n�0\fEwO!��\u0005�I�S8�C�\u0011\u00035�F\u001dĻ[ݜ>��x�o[(��D�iJ0\u0017\bN\u0004\u001e\u000e�s�WM8̢$��ɽ�uO\u0007\u0007��19\u000b+c�[�H���3��{�aĵ�7��`�$u��ǘ=+�cO�\f\u0000\u0000... (82 more characters)"
+        }
+      },
+      "id": 2,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.5617416999884881
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.5.1"
+    },
+    "app": "startup-nextjs-template",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "GET /signin (200) — 2024-07-01T05:59:06.527Z"
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /signin"
+        }
+      ]
+    }
+  ]
+}

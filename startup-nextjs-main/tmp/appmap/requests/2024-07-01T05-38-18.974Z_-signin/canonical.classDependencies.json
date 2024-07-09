@@ -1,0 +1,98 @@
+[
+  {
+    "caller": "GET /signin",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "app/layout"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "app/page"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "app/providers"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "app/signin"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/About"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Blog"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Brands"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Common"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Contact"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Features"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Footer"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Header"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Hero"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Pricing"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/ScrollToTop"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Testimonials"
+  },
+  {
+    "caller": "GET /signin",
+    "callee": "components/Video"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2"
+  },
+  {
+    "caller": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2",
+    "callee": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2"
+  }
+]

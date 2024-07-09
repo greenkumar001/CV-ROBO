@@ -1,0 +1,15 @@
+[
+  "app/page",
+  "components/About/AboutSectionOne",
+  "components/About/AboutSectionTwo",
+  "components/Blog/SingleBlog",
+  "components/Blog/index",
+  "components/Brands/index",
+  "components/Common/SectionTitle",
+  "components/Contact/index",
+  "components/Features/SingleFeature",
+  "components/Features/index",
+  "components/Hero/index",
+  "components/Testimonials/SingleTestimonial",
+  "components/Testimonials/index"
+]
