@@ -1,0 +1,30 @@
+[
+  {
+    "name": "signup",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "page",
+        "children": [
+          {
+            "type": "function",
+            "name": "SignupPage",
+            "static": true,
+            "location": "src\\app\\signup\\page.tsx:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /signup"
+      }
+    ]
+  }
+]

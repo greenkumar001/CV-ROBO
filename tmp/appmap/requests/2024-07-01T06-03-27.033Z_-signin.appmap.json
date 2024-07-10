@@ -1,0 +1,1106 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/signin",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3000",
+          "Connection": "keep-alive",
+          "Cache-Control": "max-age=0",
+          "Sec-Ch-Ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+          "Sec-Ch-Ua-Mobile": "?1",
+          "Sec-Ch-Ua-Platform": "\"Android\"",
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "navigate",
+          "Sec-Fetch-User": "?1",
+          "Sec-Fetch-Dest": "document",
+          "Referer": "http://localhost:3000/signin",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "RootLayout",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "children",
+              "class": "Object",
+              "properties": [
+                {
+                  "name": "$$typeof",
+                  "class": "Symbol"
+                },
+                {
+                  "name": "type",
+                  "class": "Object",
+                  "properties": [
+                    {
+                      "name": "$$typeof",
+                      "class": "Symbol"
+                    },
+                    {
+                      "name": "_payload",
+                      "class": "Promise"
+                    },
+                    {
+                      "name": "_init",
+                      "class": "Function"
+                    }
+                  ]
+                },
+                {
+                  "name": "key",
+                  "class": "object"
+                },
+                {
+                  "name": "ref",
+                  "class": "object"
+                },
+                {
+                  "name": "props",
+                  "class": "Object",
+                  "properties": [
+                    {
+                      "name": "parallelRouterKey",
+                      "class": "String"
+                    },
+                    {
+                      "name": "segmentPath",
+                      "class": "Array",
+                      "items": {
+                        "class": "String"
+                      }
+                    },
+                    {
+                      "name": "hasLoading",
+                      "class": "Boolean"
+                    },
+                    {
+                      "name": "template",
+                      "class": "Object",
+                      "properties": [
+                        {
+                          "name": "$$typeof",
+                          "class": "Symbol"
+                        },
+                        {
+                          "name": "type",
+                          "class": "Object",
+                          "properties": [
+                            {
+                              "name": "$$typeof",
+                              "class": "Symbol"
+                            },
+                            {
+                              "name": "_payload",
+                              "class": "Promise"
+                            },
+                            {
+                              "name": "_init",
+                              "class": "Function"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "key",
+                          "class": "object"
+                        },
+                        {
+                          "name": "ref",
+                          "class": "object"
+                        },
+                        {
+                          "name": "props",
+                          "class": "Object",
+                          "properties": []
+                        },
+                        {
+                          "name": "_owner",
+                          "class": "object"
+                        },
+                        {
+                          "name": "_store",
+                          "class": "Object",
+                          "properties": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "notFound",
+                      "class": "Array"
+                    },
+                    {
+                      "name": "notFoundStyles",
+                      "class": "Array"
+                    },
+                    {
+                      "name": "styles",
+                      "class": "object"
+                    }
+                  ]
+                },
+                {
+                  "name": "_owner",
+                  "class": "object"
+                },
+                {
+                  "name": "_store",
+                  "class": "Object",
+                  "properties": []
+                }
+              ]
+            },
+            {
+              "name": "params",
+              "class": "Object",
+              "properties": []
+            }
+          ],
+          "value": "{\n  children: {\n    '$$typeof': Symbol(react.element),\n    type: [Object],\n    key: null,\n    ref: null,\n    props: [Object],\n    _owner: null,\n    _store: {}\n  },\n  params: {}\n}",
+          "object_id": 229
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "layout",
+      "path": "src\\app\\layout.tsx",
+      "lineno": 8
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "String"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "suppressHydrationWarning",
+                "class": "Boolean"
+              },
+              {
+                "name": "lang",
+                "class": "String"
+              },
+              {
+                "name": "children",
+                "class": "Array"
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: 'html',\n  key: null,\n  ref: null,\n  props: { suppressHydrationWarning: true, lang: 'en', children: [Array] },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 231
+      },
+      "elapsed": 0.0014220000011846423
+    },
+    {
+      "event": "call",
+      "id": 4,
+      "thread_id": 0,
+      "method_id": "Providers",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "children",
+              "class": "Array"
+            }
+          ],
+          "value": "{ children: [ [Object], [Object], [Object], [Object] ] }",
+          "object_id": 232
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "providers",
+      "path": "src\\app\\providers.tsx",
+      "lineno": 3
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "Function"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "attribute",
+                "class": "String"
+              },
+              {
+                "name": "enableSystem",
+                "class": "Boolean"
+              },
+              {
+                "name": "defaultTheme",
+                "class": "String"
+              },
+              {
+                "name": "children",
+                "class": "Array"
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: [Function: $],\n  key: null,\n  ref: null,\n  props: {\n    attribute: 'class',\n    enableSystem: false,\n    defaultTheme: 'dark',\n    children: [Array]\n  },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 233
+      },
+      "elapsed": 0.00016530000721104443
+    },
+    {
+      "event": "call",
+      "id": 6,
+      "thread_id": 0,
+      "method_id": "Header",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 234
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "index",
+      "path": "src\\components\\Header\\index.tsx",
+      "lineno": 7
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 7,
+      "parent_id": 6,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "Symbol"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "children",
+                "class": "Object",
+                "properties": [
+                  {
+                    "name": "$$typeof",
+                    "class": "Symbol"
+                  },
+                  {
+                    "name": "type",
+                    "class": "String"
+                  },
+                  {
+                    "name": "key",
+                    "class": "object"
+                  },
+                  {
+                    "name": "ref",
+                    "class": "object"
+                  },
+                  {
+                    "name": "props",
+                    "class": "Object",
+                    "properties": [
+                      {
+                        "name": "className",
+                        "class": "String"
+                      },
+                      {
+                        "name": "children",
+                        "class": "Object",
+                        "properties": [
+                          {
+                            "name": "$$typeof",
+                            "class": "Symbol"
+                          },
+                          {
+                            "name": "type",
+                            "class": "String"
+                          },
+                          {
+                            "name": "key",
+                            "class": "object"
+                          },
+                          {
+                            "name": "ref",
+                            "class": "object"
+                          },
+                          {
+                            "name": "props",
+                            "class": "Object",
+                            "properties": [
+                              {
+                                "name": "className",
+                                "class": "String"
+                              },
+                              {
+                                "name": "children",
+                                "class": "Object",
+                                "properties": [
+                                  {
+                                    "name": "$$typeof",
+                                    "class": "Symbol"
+                                  },
+                                  {
+                                    "name": "type",
+                                    "class": "String"
+                                  },
+                                  {
+                                    "name": "key",
+                                    "class": "object"
+                                  },
+                                  {
+                                    "name": "ref",
+                                    "class": "object"
+                                  },
+                                  {
+                                    "name": "props",
+                                    "class": "Object",
+                                    "properties": [
+                                      {
+                                        "name": "className",
+                                        "class": "String"
+                                      },
+                                      {
+                                        "name": "children",
+                                        "class": "Array"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "_owner",
+                                    "class": "object"
+                                  },
+                                  {
+                                    "name": "_store",
+                                    "class": "Object",
+                                    "properties": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "_owner",
+                            "class": "object"
+                          },
+                          {
+                            "name": "_store",
+                            "class": "Object",
+                            "properties": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_owner",
+                    "class": "object"
+                  },
+                  {
+                    "name": "_store",
+                    "class": "Object",
+                    "properties": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: Symbol(react.fragment),\n  key: null,\n  ref: null,\n  props: { children: [Object] },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 235
+      },
+      "elapsed": 0.0011955999943893403
+    },
+    {
+      "event": "call",
+      "id": 8,
+      "thread_id": 0,
+      "method_id": "ThemeToggler",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 236
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "ThemeToggler",
+      "path": "src\\components\\Header\\ThemeToggler.tsx",
+      "lineno": 3
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 9,
+      "parent_id": 8,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "String"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "aria-label",
+                "class": "String"
+              },
+              {
+                "name": "onClick",
+                "class": "Function"
+              },
+              {
+                "name": "className",
+                "class": "String"
+              },
+              {
+                "name": "children",
+                "class": "Array"
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: 'button',\n  key: null,\n  ref: null,\n  props: {\n    'aria-label': 'theme toggler',\n    onClick: [Function: onClick],\n    className: 'flex items-center justify-center text-black rounded-full cursor-pointer bg-gray-2 dark:bg-dark-bg h-9 w-9 dark:text-white md:h-14 md:w-14',\n    children: [Array]\n  },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 237
+      },
+      "elapsed": 0.00034619998768903315
+    },
+    {
+      "event": "call",
+      "id": 10,
+      "thread_id": 0,
+      "method_id": "SigninPage",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "params",
+              "class": "Object",
+              "properties": []
+            },
+            {
+              "name": "searchParams",
+              "class": "Object",
+              "properties": []
+            }
+          ],
+          "value": "{ params: {}, searchParams: {} }",
+          "object_id": 238
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "page",
+      "path": "src\\app\\signin\\page.tsx",
+      "lineno": 7
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 11,
+      "parent_id": 10,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "Symbol"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "children",
+                "class": "Object",
+                "properties": [
+                  {
+                    "name": "$$typeof",
+                    "class": "Symbol"
+                  },
+                  {
+                    "name": "type",
+                    "class": "String"
+                  },
+                  {
+                    "name": "key",
+                    "class": "object"
+                  },
+                  {
+                    "name": "ref",
+                    "class": "object"
+                  },
+                  {
+                    "name": "props",
+                    "class": "Object",
+                    "properties": [
+                      {
+                        "name": "className",
+                        "class": "String"
+                      },
+                      {
+                        "name": "children",
+                        "class": "Array"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_owner",
+                    "class": "object"
+                  },
+                  {
+                    "name": "_store",
+                    "class": "Object",
+                    "properties": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: Symbol(react.fragment),\n  key: null,\n  ref: null,\n  props: { children: [Object] },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 239
+      },
+      "elapsed": 0.0006428000051528215
+    },
+    {
+      "event": "call",
+      "id": 12,
+      "thread_id": 0,
+      "method_id": "Footer",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 240
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "index",
+      "path": "src\\components\\Footer\\index.tsx",
+      "lineno": 4
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 13,
+      "parent_id": 12,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "Symbol"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "children",
+                "class": "Object",
+                "properties": [
+                  {
+                    "name": "$$typeof",
+                    "class": "Symbol"
+                  },
+                  {
+                    "name": "type",
+                    "class": "String"
+                  },
+                  {
+                    "name": "key",
+                    "class": "object"
+                  },
+                  {
+                    "name": "ref",
+                    "class": "object"
+                  },
+                  {
+                    "name": "props",
+                    "class": "Object",
+                    "properties": [
+                      {
+                        "name": "className",
+                        "class": "String"
+                      },
+                      {
+                        "name": "children",
+                        "class": "Array"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_owner",
+                    "class": "object"
+                  },
+                  {
+                    "name": "_store",
+                    "class": "Object",
+                    "properties": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: Symbol(react.fragment),\n  key: null,\n  ref: null,\n  props: { children: [Object] },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 241
+      },
+      "elapsed": 0.0020967999880667776
+    },
+    {
+      "event": "call",
+      "id": 14,
+      "thread_id": 0,
+      "method_id": "ScrollToTop",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 242
+        },
+        {
+          "class": "Object",
+          "properties": [],
+          "value": "{}",
+          "object_id": 230
+        }
+      ],
+      "defined_class": "index",
+      "path": "src\\components\\ScrollToTop\\index.tsx",
+      "lineno": 3
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 15,
+      "parent_id": 14,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "String"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "className",
+                "class": "String"
+              },
+              {
+                "name": "children",
+                "class": "Boolean"
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: 'div',\n  key: null,\n  ref: null,\n  props: { className: 'fixed bottom-8 right-8 z-[99]', children: false },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 243
+      },
+      "elapsed": 0.00010209999163635075
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url, Accept-Encoding",
+          "Cache-Control": "no-store, must-revalidate",
+          "X-Powered-By": "Next.js",
+          "Content-Type": "text/html; charset=utf-8",
+          "Content-Encoding": "gzip"
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\n�=���F���(��\r,�~��xf�V��\u0002��X'\u0006ֆap$��kJ\u0014(j\u001e�\u0004�߸߻/���n��h�H��㽁�\u0019\u0016�]]]U]U�]����o������O��vY\u001d?ƟQ��\u0016G�b5\u0002���Ǐ�E�G��yQ�G�m{\u0016g���ʗ���,.�uӎ�Y�j�\u0015\u0014�,���Ѽ�(gEL�\u001f�rU�e^śY^\u0015G\u001c�T��]�\u0014��h�^W��(\u0000�yS�\u001d��oW�U;޴y[�Ƴ�f����*���m\u0002�\u001f/�x�m�e�Rf�(��m\u001e��bV̋�\f\bC\u0004ooE�K\u0000ԫ�|>��\rP3k�5PrV����MY7e{}4���[�;߮�mƗ��:��K�v�8h�!�6���˼\\�@��@��\n*�X�\u000e�G \u0004\\�:_\u0014��\u0004�4���\u0000�_�k�)\u0017�r5F��\t����E���볲�Y����\u00164j\u0007��)�i=��fU�\u0001��.��_~;�o@W�w���i\u0005\u0002�޾�2�\u0005��6�ϲT�\u0002\u001d�_�mW���W\u000f\u001e��6�?]�M4?�׳�\u0012T=\t\u000fO�\u0002�av4O\bٴܴ_ϒ�X�\u0017Ń��rq�~�����\u001e~�X������\u001b��h��\u0016�\u0007_��\nʔg\u000f��?͒|>P��s��W\u000f)�M�_\u0005T�`���#���?\u0013@\u001f�����<�����n^�\u0010�\u0011�s%~���\u000fڇ?��˃�_�\fD�\u0015M����⬍Y��k���X��*����l[UQ\t�o�Y��\u0016姛�ڶE\u0004Ln�|�Y�\r|\u0001��ˋ�\u0016�\u0005(}�쾆�\b�(�xy\u0015+��\u000e�m7myv\u001d�\u0016�eA�jP�26,Z�W�'k�8��G�&�\u0002�滝��zQG� �w�#��8���\u000eU֡J(тV�WUt\u0006\u001d��ż�.�J���9\u00124y\u0019��>�\u001f������\u0007�\u00101�8�9�\u000f�������\u000f��1\t�Ķm�UT��>�\u0017�y�C�XT �(o�<��S4���Ӳ*�g�j;\n�u\"mPр��\u0007|,<�H� �\"��_ǚ�Ǜ����y1��\u0005� �����\n>��\u0005��r�7����v�^��Zt<|\f:���\u0013��'ڷy\u001e3x��_K�h�\u0001M��8j�\u001c�3�69\u0001��n�_�\u0003Ϣ��\u00064�����\t��1H} �I]U�zStRv��=a�p�\fi\u0011���N�\u0006\u0007��D\u0013�\u000eB�\u001b��\u0019k\u0016uԀ\u000e\u0018�\u0001u��\u001b5E�\u0019���qQn�SPKxt.\u0001�.�|����q��\u0015\u0015�b���+�[�\u00067\r\u001e=��z�\nXQ�_s��\u001b\n0�߶�<\bI\u0005���C\"�X\u0011_9�R���\u0002����L�&�*\u0002\u0007�\u001b����(\u0005�Dt�+\bH�8�\u0007~�k�`\\\u0005b�98��\u0011�a\b\u0011��\rqz�z�\r�҇�Q;���3+U��\u0011��B�0:�\u0013��L�\u0000��\u0018\u001d?���i\u0007�u�@\n/�k\f�?�\u001b�n̶ͦn�uM��\u0007<�n���P\u001b�'��F\u0005g�>�����\u0018O���u\u0015KtV\u0017��M{FB\u0003�\n���F\u0011N���WG#\u0016�H�H�3^��y�al�P�Z\\\u0014�z>G;\\��߁�~f\u0012aEf�,ɔH'&1�T\u0002@�\u0005O�4���l\u0000�,��\u0017�r\u0011q�p�͔\u0013�\u000e\u0011w����0�!����Y�lj\"�\b)\u0005`���\u0018i��%B\u001bK\r��\u001a5\r\u001d�_&�\t�v5{�a���\u0011q\u000b��m��|�N\u0002�\u001b2\u0012��Ţ�u�8i�=��|�i�0���)�)�e�\u0006N�5\u0014|�볆Z4�&�\u001e��.\u0000t>\u0015�����l�s\u0005��;X�Vj�H\u000b7����Ĉ\n�!\u0015�vvT<�����]w\u0016\u001c9�0�6hH\u0000\u001f~\u0017kᇏ<h�#\u001cJd6��\u0014uvl�\u001e�\u0006U�{��k���!*ޔ�\u0002�CO�\u000b\u0007�!��\u0005�(����\u001b\u0007�\r���\txL�\u001d�yuw�ڮ=Q?��\u0006QEӠm��z����b��\u001f0U�mV|0�(V@\u0013sC\r6\u0014���\u0001nn\u000et��I9�6�\u0013��\u000e\u0007�\u001c�6��r�g�(�.�\u000bh).W1DL��]�\u0014�\n\u0004f\u001f$�\u0011�}�i�\u001ax�]?�:\u0001�C?lx�Wv���\u000e>\u0000\u0011�K���\n·�\u0014us��0\\g��.p�~\t�\"���:M�\u0003���텔ЯE�c�8����\u0002��\u0016&�����c���%��q�n\u0000'῎��X\u00032\u001dmڦ~W�>8\u0019.\u00069�ơ4!��Ij�\u00021����,�\"��C`�1�\f�Kz�\u00103u\u0000�\u0000M:(�o���I��\u0004�\u001e�@�\u001e�V��A\u0012Z�\u001f\u0012\u000bBP\u0007\u0005�o�\"0 \u0010B1��\u0010�v/0r���\u0011�e���@(��^�v��\u0014$\u000fY\u0015]-�\u0015\u000eӶ]?\u001a�///�K���b,\u0018c�f�7��d�%�=I\u001c?^�w�\u0016���\u001c�\u001f�����i��[ّ��>\u0003qq�0�A��$ө$\u0000��\u0005ƿ&aBS�j�\fc`��\t\u0004�Ba\f\f��\u0019�(�s\u0015bs+u\u000f�I�\bؙ�Q�j\u0013c�l@\f�x��$��&6U��o\"*E%�ԦN�B)�\u001e�Ȳ��\u0003Z&E�\u0013����k\u0012;H��$u0\u0015\rjD\u001d\tUCG\u0003jχ�r�R��X8d�\u0019�n�\u0000d\u000e��\u0004�VLj#���,\u0006+aP�\u0015�\f�㩢iJPs�e\u000f�I��\u0012�2��PU�B&t֡��\r0\u0014P��a�$\u0005؊@��\b7�\u0012J[\u001d!\u0016+�4]i\u001c�\u0019���\u000b�9]k\u0006Q�=5\u001d,&ݣ�C�\u001a�\u0018P\u0007\u001e��;\u001ey��}\u001dS{\u0006�\t<\teS\u0018��\u0014�\u0011\u0003)Z�S��@G`�ƭI�l*\u0000\u0013\u0003܌&��\u0019\u0019\u0006��Y�\r^���$;���Ă&�(�P01�&��P�Ș��@�J�`��\u0013}j�$\nu\u001a���ֽ稬��\u0003\u0006K\u0010\u000e�\u0013�fj\u0007mrg�:�:\u0018�fD��ẉ����x�i\u0018p�S�:��K6�m���\bt\u0002@\u0000E�9�q�۞�\u001c'�Lv�\u0016Ф�|\b\u000b�RH�\u0017�\u0004ԙ��\u000f0L�Ӯ\r�S`U�}���\u001d��� T�z|�{\u001d�{�t�<׺�<[;rz\u0018IfDrx\u0017��qt��mtl�$\u0004�y�\u0002G;^�z&T7��G0]@\bҟ�1\"3�L2�x�%t\u0004;`\u0019!4)uWYǾ�z�<(B'@7B\u0013��\u0019��\fP`�C�\b����#�\u0000\u001ba���\rV���Ó�\u0011ݽ뷫\n|�ȟ��'� B��Ga��,N�\u0000�#t�;2��ʄ�{\u0004�5\u001e�:�~�ZO_��W�T���G�C\u0018���9�\u0001�!| \u0001\u0018��)\u0013\u0018\b�Zk\u0002we��H\u0002�A|�\u0012����R`\n\u0001�\u001b9�\u0003�-eJ�m\u0000k�M��`��rّ\u0019ޠ�\f>���\u0018<7�6<�z\"\u001c;{\u001a�فv/\u0011߱I�]*��¡�X��X�i�X��Y\u000fc\u0002,�4\u00128��Ҩ�&�v@�`�H?R�\u0011Δβ\u000e\u0006�*�Ry\u000f\u000b%��B} A*I�\t=4��)x]�591�F6K���0\u0013�\u001a�\u0016F�;̄�x\"K8t\u0004aC\u001e\u001b\u0002\u0010\u0004l�q\b\u00040\u0019���XZ�̀D\u000f\u000b�\u0005L�=�\u0002fe\u0015ᒩ&XjE�\u0018\u0017-�L\u0011\f�\u0010C���hD)A�q�\u0011��\u0012�\u0012���\u0000C���\u0000Kj^\u0018����Zn4\u000eB�1���X����j��D\r~6R\u0003�,HPgA(8¹Q\u0000�T�-�X*\u0000\u0014V��BC\t�� �D0e����&��\u0015��g�|�\u0019$��x#�R����\u0003@��\u0000�8�u0.EO:\u0018�\u0003Z\u0018u�A��\u0018�у��3S\u0005\f�))�\u0002���fJJR\u001c!(\f\u0000�L�AG�\f�C\u0017�58\u000e\u0018����^��X\u0011�\u001aY�S\u0010\u0018�O���\u0010\u000e!\u0013���\u0004m\u0014���\n�UJ\u000e�j���8#���^��\u0018��Ơ��F\u000b*\u000fj1\u0005ye���y0\u001f\u0013ƒ8���,\f\u0004(\u0018cN�\u0004��\f00O!��g�\fW��C��c5�.H�xgH�$y\u001c��:�bxp\u0012�&|\u000ej\u0015�\u0007���A)��h��Lx�\u0012�\u0010qz�\u001b\u0007+�4�XRyE��bҍ(E\u0003\u0015\u0006�\u000f��ށ�cq�AXK\u0003�X7��u\u0003\n\u0014+u���\u001c(�;˝�y���N�?�\u001aǻi`��[g�H���$n\u0012�cI��֢3s�6Z��̡\u0004��\u0007�g]?���\u000b�E�� !��mJ����Ó�6�{P+_;(��=\r*I&\u0016\u0015�J�.B3����]�.4�d% \u000e�q\u0006�UkR���o�P�a��g��ɑ��h�!���\u0013\u00189\u000b\u0018w4~\u00149`%�-K�\u0003\rE��~$\u0007b���\tЅ�\u0000R\u001a�� y\u001a�J��\u0001�%j�\"�qT��f�\u0019>��\u000b1�Q\"��D��YE�\u000e��I)(�\u0002�\u0001c�l��$�Z\u001b\n!`�D�Q�l\r��0�����TH�\u0015��ȏʌ��i5�MC}\u0000���)s�t\u001aD�l8\u001aR\u000e�\u0011M<\f6r<)�N����\t=�h\r\u0007����=\u0001v�\u0010)����8z \u0006X�\u0000\u0006�T܃�hrL�:9��GO\u000e�\u00129�<:4p�Q �\u001c\u001e�\u001f*��j\r.�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ�ܯ������T\u0010�:\n�-!3�f>\f��\u001c��M���ےK\u001e��^\u000eGt|��m?����Ǜ�\u000e&�8D����\bs�Ϊ�2\u000e�m����ncI\t0\u0000\n��\u000e\u000f\u0019=��k�a��G\u001d�\u001b���\u001f�e���\u000f�u��v?@M:��\u000e��l�D��q!�OFkϛ��ͱ�,\u001f���Ɠ}.�6NC��0eL��v�u5\u001ff���\u0001Z��U�\u0013��U\u0004$_��&�g3��\u0005A���\u0006h\u0011��&\u000f'���F��zQ�(g��n���:�3<Z��r��9\u001a\u0015˼�F;����ndd��it�W$�)\"x<&�Ǐ��z�F����P��!�9��RG���]������p\bq��H�#:t{��7�@��I��\u001bQ�m��\u0005\u001d�z�A7wjГ��q��\r�~\u0005�y�%XT&��\u00190�o|���p���oo�}��]��;\u0016��y�W[<�<>��zS�kx\t��\u0016\t?�8\u000e\n�o�69?�'�^�\u001f\u0012u��\u000fH\u001b�\u000e}\u0016�Ǟ�����֝���d`<\u000bS��$\u0001{�c�vX��\u0010�:cx�Y9��Y�_a\u0007��W����Ӣ\u0016F�9��|\u0015L�\u001f\u001f\u0011�Q\u001c\u001fG}��N���\u0002��A�:���u��t��\u0016�:\u0010WZg���똿�=�\u0005A>�O|Yc��|���^ZB� A\u0015\u001f�[�\u001fq�I1ܸ��a�6�q�(��繋:~\\�-��n��\u0005�O�~�#\u001e�EZF�5������\r�\u0014�����̲�\u0012��\u0018�w\u001bC�aسC�Ð<��́���sm�e\u0018�E��\u0006L65R�\u0014\u0003b|�\b��\r�����V��^�.0�V�j�[ԁ�\u00196�\u0003��h�\u0002W�aF��,\u000f���d��\f\u001a\u0002�}��\u0012\u0000\fFD�M�\u0015\u000eP�o�`\f�޼8���#P�&��h�\\\u001e�\u0001�Av\u001c��S���\u0004�Y㒮�\u000f�h�f\f�\u0005_\u0000��\u0016��G�£=�\r����\u0011�p�\u000fd��d&ߦt`\u001c^�\u0012���\u0006�}ᣃ��˞�}��n�n��>�|o\r�\u001f]g�`���Y��j�Q\u000e\u0013\u0017�������t}H�l���1«��Z�݈�\u000f|[\fՃ#�\u0013\f�0loC�\u000e\u000f��\u000f�����p�\u0011�\u0018&TW\u0015<�1\u001dr�ug����҄C���\f\u000f�`�\u0013�3���a�T�\\Dy���:�z\u0014�\u0015<%^@T��\u001eة�\u0019��</f�+G����V��\u0004�ۭ�\u001c�p�t\u001f\r�%��̀7Y\u0014�1RC?b��%\u001e�c)ݽ\u0017dp\u0007�'�\u001b�E?7����y�H�Q��������xit�d퍃:$� ޝ�>�z��?�K��͛\u0005���0�B��`Z���\u0000��V5 (�fp\"hل\u0013�CBo\u00061��?;\u0018�ݬ��ֳ^���{BE���Ї�\u0013�����/�D����$.�\ti3�Pg�\u001a\"RZ�S�\f�\t�\u0004�ĝ<a�!�r\u000bn\u000e$�RZ஻5\u0006\u0010$Ƙ�v�q�I�\u001e\n>�\u0004�\u0017�7��\t���\u001c\u0017�2y\u0002�qӑC�\u0013����u��./�W��\u001fw(;�W�\u000f+ŧ\\\u0005\u0000B����i��6�\u0004��0��\u00067\u00148ә�z\"\u0012� |��)z�b�Bʩ\u001b��`�0�S1ŏY�7\u0001H���\u0000\\2��\u0015\u0002l��x�\u0000h��l�T�?ܙ1�\u001fD�y�^=��J��z�bu\b�̦�l\u0006\u0017�q�Uhq��\u00137)�\u0016n��Q3�Y��(�c\u0000�\u0002���a��v�WJ�b��\u000fO�\"y��X��\u0016�A�x/\u0004�FH��\u001f�P.\u0007)�\u0000�v_-�<.�+ڸ_+!�4\u0012�����'%\f���I^�F�*\u0013\u001e&�\u001b�J��:,\u000e&�v�{���u�*ä+�{/�,�Ų��l̈�M'\t�\t��\u0004Э\u001d`r�\u000b���t�\u0011���\u00141�&9�4C�=Q�)�,\tTcꈐ|\u0012z��Zг����d�k�b\u0007{6\u0007�A\u000e��NL�8/�@=n\u0003�Zu�\u000bp��\u001e<��{`鞚�z��3�\u0017|(%x�9L)̎p�fi�\u0003��^�W�����\u001e��`(���\b�6\u001f\u001e��R�\"v�1�\u0001�\u00043z40��\u0000H��meSܮ�ހĹ��%�\u0002L���\u000f*\u0001�i��\u0005���\u001dE�=�'��g)w/Ž�\u001c���\u0018��\u001e�\u0000Ɔ^�\u0004���P7�R�'\r\u0010d��ɢ�K��i�d��\u0019��\u0013���J�ĭ}��\u0006}~�?c\n��@>�\u0004 �)\u001a^Vt0h\"4�q3�k���0�\tc'\u0001\u00067�9mV�T\t26\\�N����N����q{J`�B�\u001f��?��}����Z�o�~�}*ai�}\u0018'�5/1G\t��ā�c�^O\u001c�)����ha�k�\n0�\u000eiq�3|\u0007\u001f+0IRKn3\u000f�\u001eu*x��\t�{Y\u0011�\rn;\u0015L�\u0004�bYj\u0010��4@�a�R4h%n#��T��\u0006\u0014�>���\u0000S�)n;w߁\u001d\"�}z+��\u0000��lڑB�8h\b޻�6��n�~>�;1\u0015��T�21\u001dLE���\u0013۽x�\u0003;A��\u001f7\u0005�\u0013M�8m\u001e��\u0005�\b��\u0019�S\\�3�}Ϫ��o���؝#st��)g0\u0001��T\u001e�c��;�9h�\u000fE����\n4~��N�\u0000i�E>����U9�����\u0005��j~�֏���V��?ZU�\r�������IQ���v7�}\u000f\u0011i\u0014�����+�;�!d\u0014��,\u0002�v�I�H�{C���u����iQ>n븉Κz��U|\u00013��_~#�ɞBd�&�R7v�]\u0019��N�`�сF��ѭ$ݸH�nMV\u00077\u0012���H���\b\u0013R�+�\u0010ge3���W\u0006�\u0013��,�̮�S\u0013\u001e�\u001e��3v̡��\u001b�\u001eeH��\u0019��\u0006}�\r���;���lOR\u001f\u001e���ێ�ny5@�Q��C\fu[̻��\u000e`o�n��\u0004h�@�o\u001c\r\u0002�f�\u0007\u0001�2�Zf��%E}�\u0017��F�\n�o�A\u0012\b\u001et�y\u0019�%ƙbjd'�\f&GF�^D�\u000b��\u00169�!O�q���\u0019\u000bW\u0001����wO�ܳ�۪���\u0019�\u001cn�����\u001d�'�6\u0016�\u0000�g������^�z��I�W�-�9�ч�Y��(�˦^��fV|����r���Ad]C��|]8܄\u0012q�o7�2_=��\r����\u0002L\u0002v\u00047$I\u001f|��쬘���Y�\u0014�\u0001�\u00128LH���\u0005q���S�C\u001b�;\n�ԑ9=`�\u0001\u001f���>���\rs4�F�E�\u000fP�#��0j�\u0016�X�0�?��@�m�6}���:Pb��\u001dԃ���]=�Yz�v��m\u000b�[���q�z�C\u000b��F���~�b>\u001db�kIC%V������0�(1&1&\u001d\u0018��E۳�s:\u0016\"���Q���\u000e����2�\u000edΨ��\u000b\"�\u001fKLHr=������|eI�S��l!��f��|q��b&�����JS>Uh��42\u0002^+;Mӄg����{9ݫ~ �B\u001c�� ���Ѐ�'�\u001b|+\r7Y%?�U��R<��H\u000f&�[L���4�\u0015:<-�\u0011!f�P��+5ݫ�W�ürHvh฾�^\u001a�\u001e\r\u0003\u0012n�J\n�>6y�P�l\u00127D0��푺|\u0012�2�]>��x�\"�\r�$7,�\u0011��d�A���\u001e9`��\u0003���<�9\u0016�\u0011\u000e�{r�u?��Wp@\u001c�\u0000�nǀ\u0018w(���\u0003\u0016Ť\u0002\u0003 �a ��[\u0007�!\u000e�\u0013K³�'ڦ\bQZ\u0015��:\u0006d\f�қ�\\\u0005�!\u0006\u00180��f�\u0001ެ�A�%\u0010D\u001b�\u0003\u001a�\u0016׿'\u000b�\u0015:�\u000f�\u0000w{��,�]\f��\u0000\u001eH���x2�s�\u0003���\\��n�RyE�������3\f#��'�\u001f��c��\u000bo\u0007����\u0001\u0000\u0000���)N.�,(��(N�IӋ��K�(�O�E���D�j�\u0015�\u0016ghD\u001b�jZ�HBōt�Jsrb5m��\u0006\u0002\u0000\u0000\u0000��\u0000\u0000\u0000���)N.�,(�+N�IӋ��K�(�O�+(-�Ј6�Q2�����Q�\u0007K�\u0017�$�d&�'\u0017\u0017�'\u0016\u0014��$V旖�\u0001��e��憖\u0016��\u0016\u0006�\u0006f�1J:1J�%�9�1J�1y\u0006V1J*>F1J1yJ��6�P;\u0001\u0000\u0000\u0000���RAn\u00021\f�KN �XU�\"U�w���U�5�i�Ndg��7)U\u000b\b�R.����ؑW�ا�*\u0018v�m\t��ݙ4�0�<,���zӨ�MI'ۣ�7�\u0007A��\u0001�\u001d�c즀\u0002�\b��\f.x���1E*�@es�2�y�F-�⯠�R'\u001b*�(�6{\u0007n���D���Rؖ�\u0012\u001bz��x'O�#!�,�\u0016��dَE��P�׉��w�����\u001d�]\u0015\u0000�=y���,�\u001f�s��\u0005��w�߿S��\n���\u0013\u0000\u0000���RAj\u00031\f��O\t�kzkC�o�����ƭW6�L7���޲m)���\"�4�\u0019\u0006\u001d�S,�Ȑ���\u0011&釮T�l�w;��&�k���\u0015��\u001d�r��➁u�6G��U,N�7�R��\r�\u0017é![�x�jd�_ܙ�\u001b\u0003mMg0\u0007��\u001cj\u00026�3\u0013\"��)\u0002��ǒ\u0011f�\u0004\u0018��@y�\u0002cIN@��\u0014'Y���?���L�$�\tO?������\u001f!�F2@�I�s���v\u0016n��aQ��\u0007���'\u0000\u0000\u0000���)N.�,(�+N�IӋ��K�(�O�+(-�Ј6�QJ�����S�մч*\u0004\u0000\u0000\u0000���Vmo�6\u0010�+��\u000f\t ے�4�۽\u0004i�\u0004���N�\u000f�`P�IbC�\u0002I\u0019�\u0002���Ŷ���6t\u001f\u0007�6uG��s���^$\u001cW�g\u0001$���\u0014�r���Z\u0014ǳ�s���l\u0016�G��.���,|��\u001c�\u001cH�CW�\u0015\u0001Q\u0000H�-8dF>0�\u0006B\"��A\"�\u0000UՀ�\u0015�e_=���)8\u000f./��\u000b��\u001b��\u0015�\u0004R�\t\u0018\u001b&��\u0016̉�3!��8��\u001c9�i\n\u0019���n\u0013E�6��ɩ��5!:���$�O͑\u0014\u0016@XU\u0002�) !@>�<���\u0010S,1\"׈2�\u0013D�p��@��j��G\u000e:��9�|%��ŁZ�v��f>��x3�k]\u0013���2�׏��\u0010�n�\u0000�\u0007$�\u000f�6�MFj�\u0001�\u0003^�Y%n\u0019�feŨ�m�ň�R赎\\\u0000�I��ʴ�{BY}ka\u0013SS�@��\u0005�Ae�\bh\"�3��n(��P�}B�|V�\u0000�\tV�p��\t$ץ}@��ɾԶ�k�\u001aU�P�i�C�V55���\u0006�v��Q 1�:0�*!p����Fq؝U\u001fv&��\b�kRn`����D�M��lw\u001c�D��eJ�=�a\u0007b��a5��&�NЗ�ڿ��ώ�Y��,h�\u000f�%���\u000bݑ?\u001a;�\u0005\u0016N�rp\u0012V��Qf�\u0018�L���n�\u0012!ŋ�)�\u001bۃ2F�-*1��\u0016+�����\u000b�НB���r���g\u00163ɼ; \u000bP�\u0007yW\\5QO *z\u00028�̑��\"�\\3¸sS�o؜�\u001akŶ���¶���\u0017�\u001a���\"��X�)�\u0001_�!\u0014�6֌��\b��\u0003V7�\u0015�\u0013�ԥ�+�f�UR⵭o��8[]+\u00046\rv�m��o�K\u0018�;�[��n7����Y-�j\n򞪖}���Ģ?�\u0017���b���s�q\u001b��}�]�����R��dY��D\\]�c���K�g��+���\u0014x�k\u0014�A�t\u0004#8ux\u001e�c�ӟ��I�k\t)Fα�\u00172�g\u001c�DR@\t�\u0014��n\u0000�a7\u0000\u0015п�;<;�6_��Q�v�X\u0004]\u0014��\u001f~Ge;�l�t\u0001�pu���\u001a��\u0017\u0013��1�\u0002dt�3�UD���!\t�۞�T�\u001d���\u0014���\u000fG��\u001bF���\u0012-�k�����U�\t\u000f�Z��.��\u000eu̫�\u000f����\u001d�c1<�V��\nv�\u001a���\u0006߅����o�����Ͼ�k\u0016�^X^g\u0006R)!��\u001d`�1�\u000e�i��v4��U�\u0013\u0016#r���jLJl&X\b}�\u0010��_�\u001bR7:y?X��\u0001\u0000\u0000��dO�\n�@\u0014��xt(X-�C��\u0013\u001d}\"��ą�)�S��߫�[�a�\u0019f�̛ɎRxrm\\�L\u000f��x�}w(\u0013\u0005��,\u0011�\b\n�'с�?�D`�\u0013B��XZ�a�`���X���F����\u001a��P;�V�v�7�Q� �*�?�l\u0013��Ӎ��Y����Wȗ�g琡:f�߃7\u0000\u0000\u0000���)N.�,(�+N�IӋ��K�(�O�+(-�Ј6�QR�մч*\u0001\u0000\u0000\u0000����O�O�����(�ͱ\u0003\u0000{o\u0012�ԁ\u0000\u0000... (507 more characters)"
+        }
+      },
+      "id": 16,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 1.4784140000119805
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.5.1"
+    },
+    "app": "startup-nextjs-template",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "GET /signin (200) — 2024-07-01T06:03:27.033Z"
+  },
+  "classMap": [
+    {
+      "name": "app",
+      "type": "package",
+      "children": [
+        {
+          "name": "signin",
+          "type": "package",
+          "children": [
+            {
+              "type": "class",
+              "name": "page",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "SigninPage",
+                  "static": true,
+                  "location": "src\\app\\signin\\page.tsx:7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "layout",
+          "children": [
+            {
+              "type": "function",
+              "name": "RootLayout",
+              "static": true,
+              "location": "src\\app\\layout.tsx:8"
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "providers",
+          "children": [
+            {
+              "type": "function",
+              "name": "Providers",
+              "static": true,
+              "location": "src\\app\\providers.tsx:3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "components",
+      "type": "package",
+      "children": [
+        {
+          "name": "Footer",
+          "type": "package",
+          "children": [
+            {
+              "type": "class",
+              "name": "index",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "Footer",
+                  "static": true,
+                  "location": "src\\components\\Footer\\index.tsx:4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Header",
+          "type": "package",
+          "children": [
+            {
+              "type": "class",
+              "name": "index",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "Header",
+                  "static": true,
+                  "location": "src\\components\\Header\\index.tsx:7"
+                }
+              ]
+            },
+            {
+              "type": "class",
+              "name": "ThemeToggler",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "ThemeToggler",
+                  "static": true,
+                  "location": "src\\components\\Header\\ThemeToggler.tsx:3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ScrollToTop",
+          "type": "package",
+          "children": [
+            {
+              "type": "class",
+              "name": "index",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "ScrollToTop",
+                  "static": true,
+                  "location": "src\\components\\ScrollToTop\\index.tsx:3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /signin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /signup",
+    "parameters": "(_rsc)",
+    "status": 200
+  }
+]

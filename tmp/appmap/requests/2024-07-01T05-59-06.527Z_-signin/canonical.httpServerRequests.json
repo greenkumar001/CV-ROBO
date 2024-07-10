@@ -1,0 +1,7 @@
+[
+  {
+    "route": "GET /signin",
+    "parameters": "(_rsc)",
+    "status": 200
+  }
+]

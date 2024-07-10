@@ -1,0 +1,9 @@
+[
+  "app/layout",
+  "app/providers",
+  "app/signin/page",
+  "components/Footer/index",
+  "components/Header/ThemeToggler",
+  "components/Header/index",
+  "components/ScrollToTop/index"
+]

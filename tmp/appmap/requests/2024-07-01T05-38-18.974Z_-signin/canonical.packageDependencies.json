@@ -1,0 +1,14 @@
+[
+  {
+    "caller": "HTTP server requests",
+    "callee": "app"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "components"
+  },
+  {
+    "caller": "HTTP server requests",
+    "callee": "fonts.gstatic.com"
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "name": "app",
+    "type": "package",
+    "children": [
+      {
+        "name": "signin",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "page",
+            "children": [
+              {
+                "type": "function",
+                "name": "SigninPage",
+                "static": true,
+                "location": "src\\app\\signin\\page.tsx:7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "layout",
+        "children": [
+          {
+            "type": "function",
+            "name": "RootLayout",
+            "static": true,
+            "location": "src\\app\\layout.tsx:8"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "page",
+        "children": [
+          {
+            "type": "function",
+            "name": "Home",
+            "static": true,
+            "location": "src\\app\\page.tsx:17"
+          }
+        ]
+      },
+      {
+        "type": "class",
+        "name": "providers",
+        "children": [
+          {
+            "type": "function",
+            "name": "Providers",
+            "static": true,
+            "location": "src\\app\\providers.tsx:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "components",
+    "type": "package",
+    "children": [
+      {
+        "name": "About",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "AboutSectionOne",
+            "children": [
+              {
+                "type": "function",
+                "name": "AboutSectionOne",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionOne.tsx:21"
+              },
+              {
+                "type": "function",
+                "name": "List",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionOne.tsx:22"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "AboutSectionTwo",
+            "children": [
+              {
+                "type": "function",
+                "name": "AboutSectionTwo",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionTwo.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blog",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Blog",
+                "static": true,
+                "location": "src\\components\\Blog\\index.tsx:5"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleBlog",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleBlog",
+                "static": true,
+                "location": "src\\components\\Blog\\SingleBlog.tsx:4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brands",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Brands",
+                "static": true,
+                "location": "src\\components\\Brands\\index.tsx:4"
+              },
+              {
+                "type": "function",
+                "name": "SingleBrand",
+                "static": true,
+                "location": "src\\components\\Brands\\index.tsx:49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Common",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "ScrollUp",
+            "children": [
+              {
+                "type": "function",
+                "name": "ScrollUp",
+                "static": true,
+                "location": "src\\components\\Common\\ScrollUp.tsx:2"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SectionTitle",
+            "children": [
+              {
+                "type": "function",
+                "name": "SectionTitle",
+                "static": true,
+                "location": "src\\components\\Common\\SectionTitle.tsx:2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Contact",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Contact",
+                "static": true,
+                "location": "src\\components\\Contact\\index.tsx:3"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "NewsLatterBox",
+            "children": [
+              {
+                "type": "function",
+                "name": "NewsLatterBox",
+                "static": true,
+                "location": "src\\components\\Contact\\NewsLatterBox.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Features",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Features",
+                "static": true,
+                "location": "src\\components\\Features\\index.tsx:5"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleFeature",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleFeature",
+                "static": true,
+                "location": "src\\components\\Features\\SingleFeature.tsx:2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Footer",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Footer",
+                "static": true,
+                "location": "src\\components\\Footer\\index.tsx:4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Header",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Header",
+                "static": true,
+                "location": "src\\components\\Header\\index.tsx:7"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "ThemeToggler",
+            "children": [
+              {
+                "type": "function",
+                "name": "ThemeToggler",
+                "static": true,
+                "location": "src\\components\\Header\\ThemeToggler.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Hero",
+                "static": true,
+                "location": "src\\components\\Hero\\index.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pricing",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Pricing",
+                "static": true,
+                "location": "src\\components\\Pricing\\index.tsx:6"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "OfferList",
+            "children": [
+              {
+                "type": "function",
+                "name": "OfferList",
+                "static": true,
+                "location": "src\\components\\Pricing\\OfferList.tsx:36"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "PricingBox",
+            "children": [
+              {
+                "type": "function",
+                "name": "PricingBox",
+                "static": true,
+                "location": "src\\components\\Pricing\\PricingBox.tsx:2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ScrollToTop",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "ScrollToTop",
+                "static": true,
+                "location": "src\\components\\ScrollToTop\\index.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Testimonials",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Testimonials",
+                "static": true,
+                "location": "src\\components\\Testimonials\\index.tsx:30"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleTestimonial",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleTestimonial",
+                "static": true,
+                "location": "src\\components\\Testimonials\\SingleTestimonial.tsx:20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Video",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Video",
+                "static": true,
+                "location": "src\\components\\Video\\index.tsx:6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /signin"
+      }
+    ]
+  },
+  {
+    "type": "external-service",
+    "name": "fonts.gstatic.com",
+    "children": [
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2"
+      },
+      {
+        "type": "external-route",
+        "name": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2"
+      }
+    ]
+  }
+]

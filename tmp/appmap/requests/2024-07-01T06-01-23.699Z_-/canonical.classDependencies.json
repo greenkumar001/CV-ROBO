@@ -1,0 +1,38 @@
+[
+  {
+    "caller": "GET /",
+    "callee": "app/page"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/About"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Blog"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Brands"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Common"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Contact"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Features"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Hero"
+  },
+  {
+    "caller": "GET /",
+    "callee": "components/Testimonials"
+  }
+]

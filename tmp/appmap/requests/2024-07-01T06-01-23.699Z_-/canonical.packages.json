@@ -1,0 +1,11 @@
+[
+  "app",
+  "components/About",
+  "components/Blog",
+  "components/Brands",
+  "components/Common",
+  "components/Contact",
+  "components/Features",
+  "components/Hero",
+  "components/Testimonials"
+]

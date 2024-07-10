@@ -1,0 +1,37 @@
+[
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1pL7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2ZL7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  },
+  {
+    "route": "GET https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2pL7W0Q5n-wU.woff2",
+    "parameters": "()",
+    "status": 200
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "name": "app",
+    "type": "package",
+    "children": [
+      {
+        "type": "class",
+        "name": "page",
+        "children": [
+          {
+            "type": "function",
+            "name": "Home",
+            "static": true,
+            "location": "src\\app\\page.tsx:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "components",
+    "type": "package",
+    "children": [
+      {
+        "name": "About",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "AboutSectionOne",
+            "children": [
+              {
+                "type": "function",
+                "name": "AboutSectionOne",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionOne.tsx:21"
+              },
+              {
+                "type": "function",
+                "name": "List",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionOne.tsx:22"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "AboutSectionTwo",
+            "children": [
+              {
+                "type": "function",
+                "name": "AboutSectionTwo",
+                "static": true,
+                "location": "src\\components\\About\\AboutSectionTwo.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blog",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Blog",
+                "static": true,
+                "location": "src\\components\\Blog\\index.tsx:5"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleBlog",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleBlog",
+                "static": true,
+                "location": "src\\components\\Blog\\SingleBlog.tsx:4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brands",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Brands",
+                "static": true,
+                "location": "src\\components\\Brands\\index.tsx:4"
+              },
+              {
+                "type": "function",
+                "name": "SingleBrand",
+                "static": true,
+                "location": "src\\components\\Brands\\index.tsx:49"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Common",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "SectionTitle",
+            "children": [
+              {
+                "type": "function",
+                "name": "SectionTitle",
+                "static": true,
+                "location": "src\\components\\Common\\SectionTitle.tsx:2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Contact",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Contact",
+                "static": true,
+                "location": "src\\components\\Contact\\index.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Features",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Features",
+                "static": true,
+                "location": "src\\components\\Features\\index.tsx:5"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleFeature",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleFeature",
+                "static": true,
+                "location": "src\\components\\Features\\SingleFeature.tsx:2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Hero",
+                "static": true,
+                "location": "src\\components\\Hero\\index.tsx:3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Testimonials",
+        "type": "package",
+        "children": [
+          {
+            "type": "class",
+            "name": "index",
+            "children": [
+              {
+                "type": "function",
+                "name": "Testimonials",
+                "static": true,
+                "location": "src\\components\\Testimonials\\index.tsx:30"
+              }
+            ]
+          },
+          {
+            "type": "class",
+            "name": "SingleTestimonial",
+            "children": [
+              {
+                "type": "function",
+                "name": "SingleTestimonial",
+                "static": true,
+                "location": "src\\components\\Testimonials\\SingleTestimonial.tsx:20"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "GET /"
+      }
+    ]
+  }
+]

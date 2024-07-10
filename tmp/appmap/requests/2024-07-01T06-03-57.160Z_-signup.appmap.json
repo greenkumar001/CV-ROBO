@@ -1,0 +1,228 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "path_info": "/signup",
+        "request_method": "GET",
+        "headers": {
+          "Host": "localhost:3000",
+          "Connection": "keep-alive",
+          "Sec-Ch-Ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+          "Next-Router-State-Tree": "%5B%22%22%2C%7B%22children%22%3A%5B%22signup%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%5D%7D%2Cnull%2C%22refetch%22%5D%7D%5D",
+          "Sec-Ch-Ua-Mobile": "?1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+          "Next-Url": "/signup",
+          "Rsc": "1",
+          "Sec-Ch-Ua-Platform": "\"Android\"",
+          "Accept": "*/*",
+          "Sec-Fetch-Site": "same-origin",
+          "Sec-Fetch-Mode": "cors",
+          "Sec-Fetch-Dest": "empty",
+          "Referer": "http://localhost:3000/signin",
+          "Accept-Encoding": "gzip, deflate, br, zstd",
+          "Accept-Language": "en-US,en;q=0.9,hi;q=0.8"
+        },
+        "protocol": "HTTP/1.1"
+      },
+      "id": 1,
+      "thread_id": 0,
+      "message": [
+        {
+          "name": "_rsc",
+          "value": "'1vei2'",
+          "class": "String"
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "id": 2,
+      "thread_id": 0,
+      "method_id": "SignupPage",
+      "static": true,
+      "parameters": [
+        {
+          "class": "Object",
+          "properties": [
+            {
+              "name": "params",
+              "class": "Object",
+              "properties": []
+            },
+            {
+              "name": "searchParams",
+              "class": "Object",
+              "properties": []
+            }
+          ],
+          "value": "{ params: {}, searchParams: {} }",
+          "object_id": 244
+        }
+      ],
+      "defined_class": "page",
+      "path": "src\\app\\signup\\page.tsx",
+      "lineno": 7
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "Object",
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "Symbol"
+          },
+          {
+            "name": "key",
+            "class": "object"
+          },
+          {
+            "name": "ref",
+            "class": "object"
+          },
+          {
+            "name": "props",
+            "class": "Object",
+            "properties": [
+              {
+                "name": "children",
+                "class": "Object",
+                "properties": [
+                  {
+                    "name": "$$typeof",
+                    "class": "Symbol"
+                  },
+                  {
+                    "name": "type",
+                    "class": "String"
+                  },
+                  {
+                    "name": "key",
+                    "class": "object"
+                  },
+                  {
+                    "name": "ref",
+                    "class": "object"
+                  },
+                  {
+                    "name": "props",
+                    "class": "Object",
+                    "properties": [
+                      {
+                        "name": "className",
+                        "class": "String"
+                      },
+                      {
+                        "name": "children",
+                        "class": "Array"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "_owner",
+                    "class": "object"
+                  },
+                  {
+                    "name": "_store",
+                    "class": "Object",
+                    "properties": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "_owner",
+            "class": "object"
+          },
+          {
+            "name": "_store",
+            "class": "Object",
+            "properties": []
+          }
+        ],
+        "value": "{\n  '$$typeof': Symbol(react.element),\n  type: Symbol(react.fragment),\n  key: null,\n  ref: null,\n  props: { children: [Object] },\n  _owner: null,\n  _store: {}\n}",
+        "object_id": 245
+      },
+      "elapsed": 0.006770000007236376
+    },
+    {
+      "event": "return",
+      "http_server_response": {
+        "status_code": 200,
+        "headers": {
+          "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url, Accept-Encoding",
+          "Cache-Control": "no-store, must-revalidate",
+          "X-Powered-By": "Next.js",
+          "Content-Type": "text/x-component",
+          "Content-Encoding": "gzip"
+        },
+        "return_value": {
+          "class": "[ResponseBody]",
+          "value": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\n��A\n�0\u0010E�\u001e#+��\u0001u�\r<C)\u0012��Ʀ���b��)\b��J�\u0019������V[��N�Eַ\u001c_�y\u0007{����G7\u0004d \u001c\u0005�g\u0001\u001b<�@��ퟬ�Z\u00157�oiH0��J�\u0018�\u0016�c��a�O��R��\u001c�-��O���\u0010�;\u000e�s\u0019�g�o��r%\u0013�\u0017��g\u0006;�\u0000��\u001cf}ϱׂ}\nFP�X�FY��\u0003\u0000\u0000���Z{���\u0011���b!��\u00168��~���f����\u0018u\u001eh\u000e\u0007�'Q'֔(��� @�F�^?Igv�\u0014u��9�\u0013���8i�1�ۙٝ�Yѧ�e��ݦ�v�����b]V˦���fmy���u��ӱ\u001b��y���\u0017/޼���/~���q0��!��(�Xte\r�����YU޶_�b�t�\u0014Uޕ�\n�c�(��\u0015ͪ���u�\\\u0016[��L�&�.\u0011�l�O��TW���_��Y���\u00009#4A�|7)tQo���\u0016����I67�$������&������\n\u001a�\u000e���Y 3�w5�� 09W\u0014WJ�z�]\u0016Kry�\\�ˮ@���\u0003j�]�K�_�n��,���S\u0018����<�%��>]��4��D����\u0005�Nф���\"+PbrYW��tY勷A��\u00032\u0010�)qS�\b�eM�C���7$_,`E��;\u0017b��\u0007���X.�\b`6Ų�obk�<$���Om<�[����%]��Uu +TS�]�v�\u0003�E�\u001e�0.�]w��^�Ͳh��k�\u0005\u0001d:�F43,}��(��o�ru��h��ݐ�\u0005�x�he�ߋ��b��[+\"����}�m���&߶%n�\u0004�D��&�����qC=�`wM�ɛC�x�7<Q�ɋ�G\u0005�\t3��]\u000e\u001a�\u0006�:�3A��͏\u0010�����#��@Ob\u001a������\u000b�?�bʯ\u0001��\t7M\"&�b��j\u0018~].�5\f�\u00147HQ^���zW\u0016���\u001b )���к*�\n�\"��M�m�\\w���'����H���\t��>��\u0002�\u001a�-w�r�`�T|�4}��S�͟���pp?{\tӾ�4\u0005Q�0�r�t�4㜸T\t\tG+s�\u0013�\u0010�Zi����\u0012hf\fW�yT��\u0018K���L��\u001b����\u001b\u0019\u0007F�\u0000)-����if�\u0006)\u000eiÜ̘L�\u0006��ɍv��I��F\u0019��y80Op3G\u001aP\u0002�\u0015P\u001aF1 M�����̓\u00002c�c��V@X�59�r��dP��J�$��\u001c\u001d;w�\u0017�O�\u001a3X�Sn�=@�\u0003�`\f���\b��O�%8η^;�:\u0000��S(�\u0005����\"���1aC?�ĤZY-�t��NA\u0014�2uF�L�L����5\u0004t��F�\u0010Ɂ\u0016�1�b\u001d�C[8e<m\u0011,Hq��\u0013Fk����\u001bI��3\u0018&�u\u001e��y�^���b��g�E��\u0014���T*�\u001c�FZ���\u0004\u0013���;\u0015W�{]��\"�3����\u0012���RL&�]�.@�[3�B55^��\u0015\u0001�,s�{��\u0019v��]\n��\u001c�ق#B�g\u0001wX�\u0006�r��\u001ci�\r\u0018�Z���\u001c����k.���T���PP\u001f�\u00160��B\n\u0012\u0016�9�}&%��\u0016�ɚl�\u0004�P\n\u0014=0\u0002\u000bR�����E���\u001a~\u0018�����\u0019U\u001f��\"�\u001a�(\u0003&�����z��JԆ�Ի\u0005���2�\u0002xs0;�%8\u0001�R��-�)�U3�\u0004<\u001b��\r�P\u001c\b����\u0000�XY$Te�\u0017<��\u0014\u000e!\u000b;��\u000eC\r(&�6��P\u0001\u0012<�f��$���q�x�L�\u0010���\r��Do\u0011o@\u0003��\u0006�pg�9\u0003b,GW�q\u001a�\u0010|�y\"��Y�\u001a@S���p�i\u000b �ep��\u0004�Aq\u0006�[�\u001c���s)\u0004��b�ĲX��#�V�\u0019��~@��\u001a\u001f�\u0013!����CbV\u0004�3�\u0019��\u001e\u0016\u0000������[r]vk�E]_U���s\u001e�9\u000f\nã�,�\r.=�Y��i������\bb���\"\u001f�����\u000b�\u0013\u000e�\f���F|(V�౗H�\u0007��3�(�\u000fZ�y*��p��\u0010.�\u0007\b�{�T%��\t\u001a8�\u0004\u001dz�\u001d\b8f�\u0017�\"��e2d���sB`\u0012\u00001\u0006�\u0014�C�\u001b�C�C�\u001c:�$�\u0001g?,h\u0001� g{��\u001c�(\u001e��\u00024b�G�4�\u0007\u0002xـ���%(M#/\u001d�;����`1p:�(\u001f\tA���\u0013�D�\b�\u0003�{d\u0012aD\u001b�\f\t�NL!�0�`�Q�f#�#|�i�\u0005@(\nv�\u0003\u001d�`\u001a�âf�'XOdBⰾ\u0007\u0010���\u0013�)=7X�\u0007��H/4\"\u0018\u0013\u0019h�!&\u000fG��j`�\u0019�\t�̠\u0001P�C����^��\u001b$j\u001a���\u0006��0\u0013�ˣF�\u0003�\\�0O�\u0007���\r\tpi\u0019�Y�|�\u0012\u0012�0n\u0010\"\u0011\u000e�x'R�\u0001�{l�;\u0004�_\u0005\u000fʀyn؊\u0010���\u001c��\u000f1��\u000e9�g9\n9�\u0016D.\u0013\u001b\"�{B�/:�b�i��3����\u0015\u000b.�Z�q�x�?Q\u0014�\u001a�U�x�P��X�Q\u001f[���9#MqU�8��̗N�M^VG\u0018��*��Y��f*{y�lSV��ˢ\u001af��M�\u0012\u0016\u000e\u0017h�vv�\u0010��\u0004E�Qa�\u0000{,;�\n#\u0004藸ޯ\u0002[2r�r��\u001f���CY�\t��Ar\u0004���E��+\b����\u001b����r\u0002�in\u0014U�{f=�z�o'3��\"��_Z�\u0019�''��'�\u0015>��|_ð\u0017��^�\u0003�nӓ��͋\t��}�w��\u001dL�\u0006��m���}ud���`D�\u0019���?���v��v!�aL�E�s�źX���o����OV����*vu���\u0016\u0015\\٣&��}h&�@���Ӧ�L�^�\u001d��\u000f��m�z[�^H�C\u0001�\t�+%�t\t\u000b��\u001ar�k��\u0003J\u0002��\u0006��|0�Ի|Qv\u0007|\f\u001c�Uxr\u001a��\u0003\u0019���ޗ,��&'M<\u000f06�\u0000�;�_ƈ��ǁ��x\u0014��p}P�\u0019>�\u0006�\r6H�f�\u0006&|\u0003U�fp'��`��(��r�Rͨ���I\r\r�;�y\b'��C�9��\u0018�N��TYE�\u0004���.�K3��/R)-V�RƄ��q�\u0011���\t��\fE)C}��9!��\u0000��5�8\u0005�\n8���`llP�AZ�|��\u0011pǴXQ�˜�\u0002�\u0013�?\u001a,�3�\u0002YN:+�F�XXį\u0019� 5s:6+��V�b|��0I#K�u)5�\nSM��\u0019V�������/\u0004J�/�'Ol�×�\u0014�p��`\u0013��\u000b�$��M�����a\u0019\u001ah\u0011GK\u0017h��l>?e6�:\n��_��\u0013��D���u�\u0017od��tg�|���,���^���dS�i�\u0011��W���դ[\u0017��~<.�b�H�C夞\u0015JYx\n4\u0018l&��7E�i��mVo�>\u0004�C����\u001e�����WM�._\u001cȫ�*\u0017�^�PJ}0��m��\u0002믩�\u000e�C��\u000e�|ߕ3�ԇ8��/7e7Y==�#\u001d=��a��ѧ�V���f��5}W������Y\u0005��<�}����˛n����O��x�o;�\u0013�)K���\u001e�\u00171fG\u0007�\u0000'�/ۺڃʫb�%\u00146�\u000e����'�b�9&#��'�}��ݨ\u0003cH��\u0014�қ�}{�*�-�U�Q���r�`}?��oBv�W�u>�9L�v[v(x�\u0016�k�����o[�\b!��!~��\u001f��1=�? ��/D8��n�����\u0017��%>��\u001e\u0013\u0007�bN\u0010#��WaI��s-�#2QJz�\t�j�\b���q=�5~t�{H�\u001crH�\u0006}1o�Ц\u001f��\u0001\t\u000ea�@�M!;��\u0012m�w\u0016�\u0002\u0019��6@����I8l\u0002��\u000f^1��3�h�e��6��ɵ��0�u\u0019����S���h\f�\u001cHc1��\u000fHJ��\u0001j�*\n��\u0017�V\u000ea\u000e��\b�\u001f���g:{iFշ��z�j\u000b�<\u0016{nO\u000b�_\u001f-t��\u0007�r[�Z4MU�\u0015����F\u0018u�֩^#�\u0011q�e�\u001f4�\u001f��\u001cd\u0005_�\u0013���5�O�M���\u0001�Ԣ�{q�w��\u001c�+��c�9���\u001f�m�GT5(e{\u0005<\u001e�ѿ\u0002U�=;6�Ɠ���sє��N�:o�=�U^��٬h\u001a���q�qZ@�f\u000f��\u000en~E(>��^5�\u0017��ӌ��i�ۺ{���}��L�؊ �xg�\u001e\r\u0000S�\u000b��\u000f�\u0003\u0000\u0000��U�1\n�0\u0010E{O�\f�\tl\na\tx\nK�\u0018�\u0003q\u0014w��xw����?\u001e��m\u000b%\u0018�H1�\u0017�\u0001�\u0013��Ĵ/�\u0019�Y�D3ܹױ�)q �\u001c�aae��\u001f0R����+��h\u0018qm�Nl:�_���y�b,.�r�)�,\u0000\u0000... (178 more characters)"
+        }
+      },
+      "id": 4,
+      "thread_id": 0,
+      "parent_id": 1,
+      "elapsed": 0.08658639999339357
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.23.0",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v20.5.1"
+    },
+    "app": "startup-nextjs-template",
+    "recorder": {
+      "type": "requests",
+      "name": "requests"
+    },
+    "name": "GET /signup (200) — 2024-07-01T06:03:57.160Z"
+  },
+  "classMap": [
+    {
+      "name": "signup",
+      "type": "package",
+      "children": [
+        {
+          "type": "class",
+          "name": "page",
+          "children": [
+            {
+              "type": "function",
+              "name": "SignupPage",
+              "static": true,
+              "location": "src\\app\\signup\\page.tsx:7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /signup"
+        }
+      ]
+    }
+  ]
+}
