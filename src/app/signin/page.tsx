@@ -80,7 +80,7 @@ const SigninPage = () => {
                       htmlFor="password"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
-                      Your Password
+                      Password
                     </label>
                     <input
                       type={showPassword ? "text" : "password"}
