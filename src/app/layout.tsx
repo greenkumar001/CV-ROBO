@@ -16,22 +16,21 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <Providers>
+        {/* <Providers> */}
+        <LoginProvider>
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
-        </Providers>
+        </LoginProvider>
+        {/* </Providers> */}
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";
+// import { Providers } from "./providers";
+import { LoginProvider } from "./loginContext";

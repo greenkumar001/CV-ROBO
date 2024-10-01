@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-
+import "../../styles/index.css";
 const Footer = () => {
   return (
     <>
@@ -9,21 +9,14 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-2 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-8 max-w-[360px] lg:mb-16">
+              <div className="mb-8 max-w-[360px] lg:mb-10">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.png"
+                    src="/images/logo/CV ROBO.png"
                     alt="logo"
-                    className="w-half dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="/images/logo/logo.png"
-                    alt="logo"
-                    className="w-half hidden dark:block"
-                    width={140}
-                    height={30}
+                    className=" dark:hidden"
+                    width={200}
+                    height={200}
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark"></p>

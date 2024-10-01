@@ -3,12 +3,17 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class",
   theme: {
+    backdropFilter: {
+      none: "none",
+      blur: "blur(20px)",
+    },
     container: {
       center: true,
       padding: "1rem",
@@ -75,7 +80,16 @@ module.exports = {
       dropShadow: {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
+      keyframes: {
+        moveFromRight: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        moveFromRight: "moveFromRight 1.5s ease-out forwards",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-filters")],
 };

@@ -1,20 +1,43 @@
+// SigninPage Component
 "use client";
+
 import axiosInstance from "@/server/server";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
+import "../../styles/index.css";
 
 const SigninPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
   const [showPassword, setShowPassword] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isLoading, setIsLoading] = useState(false); // Loading state
 
   const router = useRouter();
 
+  useEffect(() => {
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme:  light)",
+    );
+    setIsDarkMode(darkModeMediaQuery.matches);
+
+    const handleChange = (e) => {
+      setIsDarkMode(e.matches);
+    };
+
+    darkModeMediaQuery.addEventListener("change", handleChange);
+
+    return () => {
+      darkModeMediaQuery.removeEventListener("change", handleChange);
+    };
+  }, []);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setIsLoading(true);
     try {
       const response = await axiosInstance.post(
         "/auth/login",
@@ -30,7 +53,8 @@ const SigninPage = () => {
       );
 
       if (response.data.token) {
-        console.log("Login successful");
+        localStorage.setItem("token", response.data.token);
+        localStorage.setItem("userId", response.data.userId);
         router.push("/");
       } else {
         setError(response.data.message || "login failed");
@@ -39,10 +63,21 @@ const SigninPage = () => {
       console.error("An error occurred during the API request", error);
       setError("An error occurred. Please try again later.");
     }
+    setIsLoading(false);
   };
 
   const togglePasswordVisibility = () => {
     setShowPassword((prevState) => !prevState);
+  };
+
+  const getIconSrc = (isPasswordVisible, isDarkMode) => {
+    if (isPasswordVisible) {
+      return isDarkMode
+        ? "/icons/eye-slash-light.svg"
+        : "/icons/eye-slash-dark.svg";
+    } else {
+      return isDarkMode ? "/icons/eye-light.svg" : "/icons/eye-dark.svg";
+    }
   };
 
   return (
@@ -80,7 +115,7 @@ const SigninPage = () => {
                       htmlFor="password"
                       className="mb-3 block text-sm text-dark dark:text-white"
                     >
-                      Password
+                      Your Password
                     </label>
                     <input
                       type={showPassword ? "text" : "password"}
@@ -96,11 +131,7 @@ const SigninPage = () => {
                       className="absolute right-4 top-9"
                     >
                       <Image
-                        src={
-                          showPassword
-                            ? "/icons/eye.svg"
-                            : "/icons/eye-slash.svg"
-                        }
+                        src={getIconSrc(showPassword, isDarkMode)}
                         alt="Toggle Password Visibility"
                         width={40}
                         height={40}
@@ -111,8 +142,11 @@ const SigninPage = () => {
                     <div className="mb-6 text-center text-red-500">{error}</div>
                   )}
                   <div className="mb-6">
-                    <button className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                      Sign in
+                    <button
+                      className="flex w-full items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+                      disabled={isLoading}
+                    >
+                      {isLoading ? "Loading..." : "Sign in"}
                     </button>
                   </div>
                 </form>

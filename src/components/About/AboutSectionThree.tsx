@@ -7,7 +7,7 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const AboutSectionThree = () => {
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Why CVROBO?"
-                paragraph="In today's fast-paced world, standing out in the job market can be challenging, especially for those just starting their careers. That's where CVROBO comes in. Our advanced AI technology helps you create a standout resume tailored to your skills, experience, and aspirations. But we don't stop there—we also offer personalized career insights, interview preparation tips, and much more to ensure you're ready for every opportunity."
+                title="Our Mission"
+                paragraph="At CVROBO, we believe that every young person deserves the tools and resources to achieve their career goals. Our mission is to democratize access to professional development tools, making it easier for you to step into the job market with confidence."
                 mb="44px"
               />
             </div>
@@ -47,4 +47,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default AboutSectionThree;

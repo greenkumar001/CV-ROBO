@@ -9,7 +9,70 @@
     font-family: "Inter", sans-serif;
   }
 }
+#home {
+  background-image: url("../../public/images/glass.jpeg");
+  background-size: cover;
+}
 
+.container2 {
+  font-family: "EGER";
+  font-size: medium;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .form {
+    gap: 1rem;
+  }
+
+  .section-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+.Title {
+  animation: moveLeftRight 1s ease-in-out alternate;
+}
+
+@keyframes moveLeftRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .container {
+    padding: 0.25rem;
+  }
+
+  .form {
+    gap: 0.75rem;
+  }
+
+  .section-buttons {
+    gap: 0.25rem;
+  }
+}
+
+/* body,
+footer,
+section {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  background-image: url();
+  color: #fff;
+  line-height: 1.6;
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #162120 0%, #040c10 50%);
+} */
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;
@@ -30,4 +93,123 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+}
+
+@keyframes slide-out {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+/* .hero-slide-out {
+  @apply relative;
+  animation: slide-out 1.5s forwards;
+  width: 100%; 
+  left: 100%; 
+}
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border: 3px solid #3c3c3c;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #0059ff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #0059ff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.ring:before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-top: 3px solid #0059ff;
+  border-right: 3px solid #0059ff;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+}
+
+span {
+  display: block;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  background: transparent;
+  transform-origin: left;
+  animation: animate 2s linear infinite;
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #0059ff;
+  top: -6px;
+  right: -8px;
+  box-shadow: 0 0 20px #0059ff;
+}
+
+@keyframes animateC {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(405deg);
+  }
+} */
+/* styles/glass.css */
+.glassmorphism {
+  position: relative;
+  background: rgba(160, 160, 160, 0.009); /* Semi-transparent background */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(100px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  overflow: hidden;
+}
+
+.glass::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;base64,data:image/svg+xml,<svg viewBox='-0.24 -0.24 24.48 24.48' id='meteor-icon-kit__solid-triangle' fill='none' xmlns='http://www.w3.org/2000/svg' transform='rotate(45)' stroke='%23000000' stroke-width='0.00024000000000000003'><path fill-rule='evenodd' clip-rule='evenodd' d='M13.7889 1.57769L23.5528 21.1056C24.0468 22.0935 23.6463 23.2949 22.6584 23.7888C22.3806 23.9277 22.0744 24 21.7639 24H2.23607C1.1315 24 0.236069 23.1046 0.236069 22C0.236069 21.6895 0.308359 21.3833 0.447214 21.1056L10.2111 1.57769C10.7051 0.589734 11.9065 0.189285 12.8944 0.683263C13.2815 0.876791 13.5953 1.19064 13.7889 1.57769Z' fill='%23bbb511'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
 }

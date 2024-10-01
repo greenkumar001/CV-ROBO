@@ -1,0 +1,32 @@
+/* You may need to include this in your global styles if not using Tailwind CSS */
+.fixed {
+  position: fixed;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.max-h-screen {
+  max-height: 100vh;
+}
+
+.bg-gray-100 {
+  background-color: #f7f7f7;
+}
+
+.bg-gray-700 {
+  background-color: #4a4a4a;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
