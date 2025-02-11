@@ -8,7 +8,10 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section
+      id="pricing"
+      className="to-whiterelative z-10 bg-gradient-to-r from-pink-100 via-purple-50 py-16 md:py-20 lg:py-28"
+    >
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"

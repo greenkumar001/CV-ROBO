@@ -55,7 +55,7 @@ const Header = () => {
             <div className="max-w-half mb-26 relative w-24 px-2 ">
               <Link href="/" className="header-logo">
                 <Image
-                  src="/images/ROBO.png"
+                  src="/images/logo/CV ROBO.png"
                   alt="logo"
                   width={200}
                   height={200}
@@ -79,7 +79,7 @@ const Header = () => {
                   className={`absolute right-4 top-full ${isNavbarOpen ? "block" : "hidden"} font-EGER w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow dark:bg-dark lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:shadow-none lg:dark:bg-transparent`}
                 >
                   <ul className="blcok lg:flex">
-                    <li className="group relative">
+                    <li className="group relative hover:shadow-black">
                       <Link
                         href="/about"
                         className={`mx-8 flex py-2 text-lg text-dark group-hover:opacity-70 dark:text-white lg:inline-flex lg:py-6 ${
@@ -113,6 +113,7 @@ const Header = () => {
                         </li>
                         <li className="group relative">
                           <button
+                          
                             onClick={handleLogout}
                             className="mx-8 flex py-2 text-lg text-dark group-hover:opacity-70 dark:text-white lg:inline-flex lg:py-6"
                           >

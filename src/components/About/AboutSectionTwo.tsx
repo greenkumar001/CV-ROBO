@@ -14,7 +14,7 @@ const AboutSectionTwo = () => {
     </p>
   );
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className=" py-16 md:py-20 lg:py-28">
       <div className="container">
         <h1 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
           what we Offer?

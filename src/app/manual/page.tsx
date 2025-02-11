@@ -857,7 +857,15 @@ const ManualCreateResumePage: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto flex items-start py-24 shadow-lg">
+    <div
+      className="container mx-auto flex items-start py-24 shadow-lg"
+      style={{
+        backgroundImage: `url("/images/generate/wave-background.png ")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="w-1/4 p-4 shadow-lg">
         <nav className="flex flex-col space-y-2 shadow-lg">
           {[

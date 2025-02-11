@@ -57,19 +57,27 @@ const GenerateResumePage: React.FC = () => {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center ">
+    <div
+      className="flex min-h-screen items-center justify-center "
+      style={{
+        backgroundImage: `url("/images/generate/wave-background.png")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="w-full max-w-4xl overflow-hidden rounded-lg border-green-500 shadow-lg">
         <div className="flex flex-col md:flex-row">
           <div className="w-full p-4 md:w-1/2">
             <button
               onClick={handleManualCreateClick}
-              className="mb-4 w-full rounded-lg bg-blue-500 px-4 py-2 text-white"
+              className="mb-4 w-full rounded-lg bg-blue-900 px-4 py-2 text-white"
             >
               Manual Create Resume
             </button>
             {loading && (
               <div className="mt-4 flex items-center justify-center">
-                <div className="h-8 w-8 animate-spin rounded-full border-t-2 border-blue-500"></div>
+                <div className="h-8 w-8 animate-spin rounded-full border-t-2 border-blue-800"></div>
               </div>
             )}
           </div>
@@ -98,13 +106,22 @@ const GenerateResumePage: React.FC = () => {
             />
             <button
               onClick={() => document.getElementById("fileUpload")?.click()}
-              className="w-full rounded-lg bg-blue-500 px-4 py-2 text-white"
+              className="w-full rounded-lg bg-blue-900 px-4 py-2 text-white"
             >
               Upload File
             </button>
             {loading && (
               <div className="mt-4 flex items-center justify-center">
-                <div className="h-8 w-8 animate-spin rounded-full border-t-2 border-blue-500"></div>
+                <div className="">
+                  {" "}
+                  <video
+                    src="/images/animation/anim.webm"
+                    autoPlay
+                    loop
+                    muted
+                    className="h-16 w-16"
+                  ></video>
+                </div>
               </div>
             )}
             {error && (
