@@ -825,7 +825,7 @@ const ManualCreateResumePage: React.FC = () => {
                   <input
                     id={`hobby-${index}`}
                     type="text"
-                    value={hobby || ""}
+                    value={hobby.hobby || ""}
                     onChange={(e) =>
                       handleInputChange(e, "hobbies", index, "field")
                     }
